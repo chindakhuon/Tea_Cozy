@@ -19,13 +19,16 @@ h5 {
   background-color: black;
   top: 0px;
   padding-left: 10px;
-  padding-right: 100px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
-  width: 100%;
-  position: fixed;
+  <!-- width: 100%; -->
+  <!-- position: fixed;-->
   z-index: 20;
+}
+
+.header ul {
+  margin-right: 30px;
 }
 
 
@@ -34,7 +37,6 @@ h5 {
   list-style: none;
   display: inline-block;
   color: seashell;
-
 }
 
 #nav_container li a {
@@ -48,7 +50,7 @@ h5 {
   top: 62px;
   height: 700px;
   width: 1200px;
-  position: relative;
+<!--  position: relative; -->
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -83,7 +85,7 @@ h5 {
 .locations {
   width: 1200px;
   height: 500px;
-  align-items: center;
+
   display: inline-flex;
   justify-content: center;
 
