@@ -22,8 +22,8 @@ h5 {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
-  <!-- width: 100%; -->
-  <!-- position: fixed;-->
+  width: 100%;
+  position: fixed;
   z-index: 20;
 }
 
@@ -49,11 +49,19 @@ h5 {
   display: flex;
   top: 62px;
   height: 700px;
-  width: 1200px;
-<!--  position: relative; -->
+width: 1200px;
+position: relative;
   text-align: center;
   justify-content: center;
   align-items: center;
+
+
+
+
+    flex-wrap: wrap;
+
+    margin: auto;
+
 }
 
 .handpick{
@@ -80,21 +88,23 @@ h5 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
+
+  flex-wrap: wrap;
+
+  margin: auto;
 }
 
 .locations {
   width: 1200px;
   height: 500px;
-
   display: inline-flex;
   justify-content: center;
-
 }
 
 .address {
   width: 300px;
   background-color: black;
-  height: 300px;
+  height: 252px;
   margin: 20px;
 }
 
